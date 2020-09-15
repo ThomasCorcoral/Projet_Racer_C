@@ -25,7 +25,7 @@ Ouvrez <b>2</b> terminaux
 Dans le premier terminal lancez le viewer (./race-viewer)
 
 #### Etape 5
-Dans le second fichier lancez le serveur avec les participants souhaitez<br>
+Dans le second terminal lancez le serveur avec les participants souhaité<br>
 Par exemple avec 1 seul participant : ./race-server ./race<br>
 Avec tous les participants : ./race-server ./racer ./race-dumb ./race-mid ./race-hi<br>
 
