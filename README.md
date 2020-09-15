@@ -3,7 +3,7 @@ Ce projet consiste en la réalisation d'une course de vitesse et "d'intelligence
 <b>Le but du jeu ?</b> Arriver au dernier checkpoint avec le moins de points possible. Un déplacement est égal à 1 point et les cases peuvent donner plus ou moins de points. A chaque tour l'algorithme peut accélérer ou ralentir de 1 seulement (Exemple : si sa vitesse en y est de 5 au prochain tour elle sera de 4 5 ou 6 seulement).
 
 ## Demo
-![Preview](https://github.com/ThomasCorcoral/Projet_Racer_C/blob/master/racer.png)
+![Preview](https://github.com/ThomasCorcoral/Gazette-php/blob/master/gazette-accueil.png)
 
 ## Comment a-t-il été réalisé ?
 
