@@ -1,6 +1,6 @@
 ## Quel est ce projet ?
 Ce projet consiste en la réalisation d'une course de vitesse et "d'intelligence" réalisée uniquement par un algorithme. En effet, un algorithme écrit en C# va communiquer avec le serveur pour ralier le plus rapidement possible différents checkpoints. Attention ces checkpoints sont d'une taille variable. Et chaque case de ce checkpoint aura une valeur. <br><br>
-<b>Le but du jeu ?<b> Arriver au dernier checkpoint avec le moins de points possible. Un déplacement est égal à 1 point et les cases peuvent donner plus ou moins de points. A chaque tour l'algorithme peut accélérer ou ralentir de 1 seulement (Exemple : si sa vitesse en y est de 5 au prochain tour elle sera de 4 5 ou 6 seulement).
+<b>Le but du jeu ?</b> Arriver au dernier checkpoint avec le moins de points possible. Un déplacement est égal à 1 point et les cases peuvent donner plus ou moins de points. A chaque tour l'algorithme peut accélérer ou ralentir de 1 seulement (Exemple : si sa vitesse en y est de 5 au prochain tour elle sera de 4 5 ou 6 seulement).
 
 ## Demo
 ![Preview](https://github.com/ThomasCorcoral/Projet_Racer_C/blob/master/racer.png)
