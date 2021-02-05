@@ -1,33 +1,33 @@
-## Quel est ce projet ?
-Ce projet consiste en la réalisation d'une course de vitesse et "d'intelligence" réalisée uniquement par un algorithme. En effet, un algorithme écrit en C# va communiquer avec le serveur pour ralier le plus rapidement possible différents checkpoints. Attention ces checkpoints sont d'une taille variable. Et chaque case de ce checkpoint aura une valeur. <br><br>
-<b>Le but du jeu ?</b> Arriver au dernier checkpoint avec le moins de points possible. Un déplacement est égal à 1 point et les cases peuvent donner plus ou moins de points. A chaque tour l'algorithme peut accélérer ou ralentir de 1 seulement (Exemple : si sa vitesse en y est de 5 au prochain tour elle sera de 4 5 ou 6 seulement).
+## What is this project?
+This project consists in the realization of a race of speed and "intelligence" carried out only by an algorithm. Indeed, an algorithm written in C will communicate with the server to perform different checkpoints as quickly as possible. Beware these checkpoints are of a variable size. And each box of this checkpoint will have a value. <br><br>
+<b>The goal of the game? </b> Arrive at the last checkpoint with the fewest points possible. A move is equal to 1 point and the boxes can give more or less points. At each turn the algorithm can accelerate or slow down by only 1 (Example: if its speed is 5 on the next turn it will be 4 5 or 6 only).
 
 ## Demo
 ![Preview](https://github.com/ThomasCorcoral/Projet_Racer_C/blob/master/racer.png)
 
-## Comment a-t-il été réalisé ?
+## How was it done?
 
-Ce projet a été intégralement réalisé en C#.<br>
-Le viewer, le server ainsi que les trois niveaux (race-dumb, race-mid, race-hi) ont été fournis par M. Julien Bernard. 
+This project was completed in C. <br>
+The viewer, the server and the three levels (race-dumb, race-mid, race-hi) were provided by M. Julien Bernard.
 
-## Guide d'installation
+## Installation Guide
 
-#### Etape 1
-Clonez le projet GitHub et rendez vous dans le dossier
+#### Step 1
+Clone the GitHub project and go to the folder
 
-#### Etape 2
-Compilez racer.c (gcc -Wall -std=c99 -g -o racer racer.c)
+##### Step 2
+Compile racer.c (gcc -Wall -std=c99 -g -o racer racer.c)
 
-#### Etape 3
-Ouvrez <b>2</b> terminaux
+##### Step 3
+Open b>2/b> terminals
 
-#### Etape 4 
-Dans le premier terminal lancez le viewer (./race-viewer)
+#### Step 4
+In the first terminal, launch the viewer (./race-viewer)
 
-#### Etape 5
-Dans le second terminal lancez le serveur avec les participants souhaité<br>
-Par exemple avec 1 seul participant : ./race-server ./race<br>
-Avec tous les participants : ./race-server ./racer ./race-dumb ./race-mid ./race-hi<br>
+#### Step 5
+In the second terminal run the server with the participants desired>
+For example, with only 1 participant: . /race-server . /racebr>
+With all participants: . /race-server . /racer . /race-dumb . /race-mid . /race-hibr>
 
-#### Etape 6
-Pour afficher à nouveau le viewer, il vous faudra le relancer dans le premier terminal (./race-viewer)
+##### Step 6
+To display the viewer again, you will need to restart it in the first terminal (./race-viewer)
